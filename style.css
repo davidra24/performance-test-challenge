@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    font-size: 62.5%;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 3rem;
+    margin-block-end: 2rem;
+}
+
+p {
+    font-size: 2rem;
+    margin-block-end: 2rem  ;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+    color: cadetblue;
+    font-size: 2rem;
+    transition: font-size 1s;
+}
+
+a:hover {
+    font-size: 2.5rem;
+    transition: font-size 1s;
+}
