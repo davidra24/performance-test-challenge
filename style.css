@@ -7,6 +7,7 @@
 
 body {
     font-size: 62.5%;
+    text-align: center;
 }
 
 main {
@@ -26,7 +27,8 @@ h1 {
 
 p {
     font-size: 2rem;
-    margin-block-end: 2rem  ;
+    margin-block-end: 2rem;
+    padding: 0 2rem;
 }
 
 section {
@@ -40,6 +42,7 @@ a {
     color: cadetblue;
     font-size: 2rem;
     transition: font-size 1s;
+    margin-block-start: 2rem;
 }
 
 a:hover {
@@ -50,4 +53,23 @@ a:hover {
 footer {
     text-align: center;
     font-size: 1.4rem;
+}
+
+@media(min-width: 320px) {
+    section {
+        flex-direction: column;
+    }
+    p {
+        text-align: justify;
+    }
+}
+
+@media(min-width: 768px) {
+    section {
+        flex-direction: row;
+    }
+    p {
+        text-align: center;
+        margin: 0 auto;
+    }
 }
